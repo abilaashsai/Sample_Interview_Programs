@@ -15,7 +15,7 @@ public class Main {
         try
         {
             input = Integer.parseInt(reader.readLine());
-            for (int i = 0; i < 8; i++) {
+            for (int i = 0; i < input; i++) {
                 System.out.print("*");
             }
         }
