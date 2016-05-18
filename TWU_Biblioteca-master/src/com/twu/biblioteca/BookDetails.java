@@ -15,11 +15,16 @@ public class BookDetails {
 
     public LinkedHashMap<String, Boolean> initBooks(){
         LinkedHashMap<String,Boolean> booksAvailable=new LinkedHashMap<String, Boolean>();
-        booksAvailable.put("JAVA",true);
-        booksAvailable.put("C",true);
-        booksAvailable.put("C++",true);
-        booksAvailable.put("C#",true);
-        booksAvailable.put("Python",true);
+        booksAvailable.put("The Shawshank Redemption (1994), Director: Frank Darabont, Rating:9.3/10",true);
+        booksAvailable.put("The Godfather (1972), Director: Francis Ford Coppola, Rating:9.2/10",true);
+        booksAvailable.put("The Godfather: Part II (1974), Director: Francis Ford Coppola, Rating:9.0/10",true);
+        booksAvailable.put("The Dark Knight (2008), Director: Christopher Nolan, Rating:9.0/10",true);
+        booksAvailable.put("Schindler's List (1993), Director: Steven Spielberg, Rating:8.9/10",true);
+        booksAvailable.put("12 Angry Men (1957), Director: Sidney Lumet, Rating:8.9/10",true);
+        booksAvailable.put("Pulp Fiction (1994), Director: Quentin Tarantino, Rating:8.9/10",true);
+        booksAvailable.put("The Lord of the Rings: The Return of the King (2003), Director: Peter Jackson, Rating:8.9/10",true);
+        booksAvailable.put("The Good, the Bad and the Ugly (1966), Director: Sergio Leone, Rating:8.9/10",true);
+        booksAvailable.put("Fight Club (1999), Director: David Fincher, Rating:8.9/10",true);
         return booksAvailable;
     }
     public void booksAvailable(LinkedHashMap<String,Boolean> books)

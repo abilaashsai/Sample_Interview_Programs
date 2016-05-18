@@ -22,28 +22,35 @@ public class PrintStatement {
     }
 
     public void availableBooks() {
-        System.out.println("Available Books");
+        System.out.println("Available Movies");
 
     }
     public void enterBookName()
     {
-        System.out.println("Enter the name of book");
+        System.out.println("Enter the name of Movie");
 
     }
     public void bookNotFound(){
-        System.out.println("Entered book does not exist in library");
+        System.out.println("Entered Movie does not exist in library");
 
     }
     public void returnSuccess(){
-        System.out.println("Book Successfully returned");
+        System.out.println("Movie Successfully returned");
 
     }
     public void checkoutSuccess(){
-        System.out.println("Thank you! Enjoy the book");
+        System.out.println("Thank you! Enjoy the Movie");
 
 
     }
+    public void enterUserDet(){
+        System.out.println("Enter user ID");
 
+    }
+    public void invalidUserDet(){
+        System.out.println("Invalid user ID");
+
+    }
 
 
 }

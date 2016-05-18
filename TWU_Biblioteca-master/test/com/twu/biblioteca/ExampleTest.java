@@ -20,7 +20,6 @@ public class ExampleTest {
         LinkedHashMap<String,Boolean> books=new LinkedHashMap<String, Boolean>();
         BookDetails bookDetails=new BookDetails();
         books=bookDetails.initBooks();
-        assertTrue(books.get("JAVA"));
     }
 
     @Test
